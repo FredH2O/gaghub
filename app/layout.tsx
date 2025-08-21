@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -9,7 +10,7 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "GAGhub",
+  title: "GAGHub",
   description:
     "GAGHub - Your ultimate fan guide for the Roblox game Grow A Garden. Track pets, abilities, levels, and all in-game info.",
 };
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${nunitoSans.variable}  antialiased`}>
+        <Header />
         <main>{children}</main>
         <footer>Test test test</footer>
       </body>
