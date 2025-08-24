@@ -2,8 +2,8 @@ import DotGrid from "../ReactBits/DotGrid";
 
 const Hero = () => {
   return (
-    <div className="container m-auto rounded">
-      <div className="w-full h-[600px] relative">
+    <div className="">
+      <div className="w-full h-screen relative">
         <DotGrid
           dotSize={5}
           gap={15}
