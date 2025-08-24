@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative container mx-auto">
+    <header className="relative container mx-auto py-5">
       <nav className="flex justify-between px-5 items-center">
         <div className="flex justify-center items-center gap-3">
           <Image
