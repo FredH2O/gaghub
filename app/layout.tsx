@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({
       <body className={`${nunitoSans.variable}  antialiased`}>
         <Header />
         <main>{children}</main>
-        <footer>Test test test</footer>
+        <Footer />
       </body>
     </html>
   );
