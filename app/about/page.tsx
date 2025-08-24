@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <section className="text-center m-10">
+    <section className="min-h-screen text-center m-10 h-fit flex flex-col justify-center items-center">
       <h2 className="md:text-5xl text-4xl font-bold pb-5">
         🌱 About <span className="text-emerald-500">GagHub</span>
       </h2>
 
-      <div className="md:text-center text-start space-y-3">
+      <div className="container md:text-center text-start space-y-3">
         <p className="">
           Welcome to <strong className="italic">GagHub</strong> your friendly
           guide to everything <em>Grow a Garden</em> on Roblox!
